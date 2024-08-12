@@ -1,0 +1,283 @@
+:root {
+  font-family: "Inter", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-optical-sizing:auto;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --white: #e7e7e7;
+  --blk: #1f1f1f;
+  --red: #c63c3c;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin:0;
+  padding:0;
+  font:inherit;
+}
+
+*::selection {
+  background-color:var(--blk);
+  color:var(--white);
+}
+
+html {
+  color-scheme: dark light;
+  hanging-punctuation: first last;
+  height:100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-wrap:balance;
+}
+
+p {text-wrap:pretty;}
+p:not(:last-child) {margin-bottom:1rem;}
+
+img, picture, svg, video {
+  display:block;
+  max-width:100%;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+a {
+  color:var(--blk);
+  transition:0.2s;
+  text-decoration:underline;
+}
+a:hover, a.album-link:hover {
+  color: var(--red);
+  transition:0.2s;
+}
+
+a.album-link img {
+   transition:0.2s;
+}
+
+a.album-link:hover img {
+  -webkit-filter:blur(0.8px) opacity(0.8);
+   filter:blur(0.8px) opacity(0.8);
+   transition:0.2s;
+}
+
+a:focus {
+  outline:2px solid var(--red);
+  outline-offset:2px;
+}
+
+.btn {
+  text-decoration:none;
+  background-color: #646cff;
+  padding:1rem;
+  border-radius:0.4rem;
+  color:white;
+  display:inline-block;
+  margin-top:1rem;
+  border:none;
+  cursor:pointer;
+}
+.btn:hover {color:white;}
+
+.btn.active {
+  background-color: #f25353;
+}
+
+body {
+  min-height:100svh;
+  line-height:1.5;
+  margin: 0;
+  font-size:16px;
+  padding-inline: clamp(0.6rem, 2vw, 1.5rem);
+  padding-block: clamp(2rem, 12vh, 3rem);
+  background-color: var(--white);
+  color: var(--blk);
+}
+
+.container {
+  width: min(960px, 100%);
+  margin-inline:auto;
+}
+
+#top-content {
+  margin-bottom:2rem;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 10vh, 3rem);
+  font-weight:bold;
+  margin-bottom:1.1rem;
+  display:flex;
+  flex-direction:column;
+  gap:1.1rem;
+  line-height:1;
+}
+
+h1 span {
+  font-weight:500;
+  font-size:1rem;
+}
+
+h2 {
+  font-weight:bold;
+  font-weight:700;
+  font-size:1.3rem;
+  margin-bottom:0.3rem;
+}
+
+.intro {
+  font-size:0.9rem;
+  width:min(680px, 100%);
+  margin-bottom:2rem;
+}
+
+.intro p {margin-bottom:1.5rem;}
+
+#top-content ul {list-style-type:none;}
+
+.instruments {
+  display:flex;
+  gap:0.4rem;
+  margin-bottom:1.5rem;
+}
+
+.instruments li:not(:last-child) {
+  border-right:1px solid var(--blk);
+  padding-right:0.4rem;
+}
+
+.content {
+  display:flex;
+  flex-direction:column;
+  gap:2rem;
+  margin-bottom:2rem;
+}
+
+.content-box {
+  border:1px solid var(--blk);
+}
+
+.content-head {
+  background-color:var(--white);
+  color:var(--blk);
+  border-bottom:1px solid var(--blk);
+}
+
+.content-head h2 {
+  font-weight:bold;
+  font-size:1.8rem;
+  line-height:1.08;
+  margin-bottom:0;
+}
+
+._heading-inner {
+  display:flex;
+  align-items:flex-end;
+  gap:1rem;
+  margin-bottom:1rem;
+}
+
+.years-active {
+  font-size:0.9rem;
+  font-style:italic;
+}
+
+.content-head, .content-body {
+  padding-block:1.3rem;
+  padding-inline:clamp(0.7rem, 2vw, 1.3rem);
+}
+
+.content-body li {font-size:0.9rem;}
+
+ul.fast-facts:not(:empty) {
+  padding-left:1rem;
+  margin-bottom:1rem;
+}
+
+ul.fast-facts li:not(:last-child), #bottom-content ul li {margin-bottom:0.6rem;} 
+
+.featured-recordings {
+  margin-top:2rem;
+}
+
+.featured-recordings h3 {
+  font-size:1.3rem;
+  font-weight:bolder;
+  text-transform:uppercase;
+  padding-bottom:0.5rem;
+  margin-bottom:1rem;
+  border-bottom:1px solid var(--blk);
+}
+
+.albums {
+  display:grid;
+  gap:1.3rem;
+}
+
+a.album-link {
+  color:var(--blk);
+  cursor:pointer;
+  display:block;
+  text-decoration:none;
+}
+
+.album img {
+  display:block;
+  width:100%;
+  margin-bottom:0.8rem;
+  border:1px solid #666666;
+}
+
+p.album-title {
+  margin-bottom:0;
+  font-weight:bolder;
+  font-weight:700;
+  font-size:1rem;
+}
+
+.label {
+  font-style:italic;
+  font-size:0.9rem;
+}
+
+.album-note {
+  font-weight:lighter;
+  font-weight:300;
+  font-size:0.9rem;
+}
+
+.album p .label {
+  font-size:1rem;
+  font-style:italic;
+}
+
+@media only screen and (max-width:35rem) {
+  ._heading-inner {
+    flex-direction:column;
+    align-items:flex-start;
+    gap:0.5rem;
+  }
+}
+
+ @media only screen and (min-width:35rem) {
+  .albums {
+    grid-template-columns:repeat(3, 1fr);
+  }
+}
