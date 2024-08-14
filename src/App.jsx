@@ -18,6 +18,7 @@ export default function App() {
       url={bandBox.url}
       factList={bandBox.factList}
       albums={bandBox.albums}
+      links={bandBox.links}
     />
   })
 

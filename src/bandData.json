@@ -5,9 +5,17 @@
         "timespan": "2012-2014",
         "instrument": "Organ / Guitar (occasional live)",
         "content": "New Haven, CT-based punk band; joined in a limited capacity as keyboardist and occasional live guitarist (fill-in, as needed) for regional gigs in CT and for the recording of a 7-inch EP.",
-        "url": "https://www.facebook.com/TheLostRiots",
-        "spotify":"https://open.spotify.com/artist/2ZZlE4X22e8axzJz0GKYVU?si=kWLOa5k_T-6511eMc-yemg",
         "factList": [],
+        "links": [
+            {
+                "platform": "Spotify",
+                "url":"https://open.spotify.com/artist/2ZZlE4X22e8axzJz0GKYVU?si=kWLOa5k_T-6511eMc-yemg"
+            },
+            {
+                "platform": "Website",
+                "url":"https://www.facebook.com/TheLostRiots"
+            }
+        ],
         "albums": [
             {
                 "title": "Shorter! Faster!! Louder!!!",
@@ -24,9 +32,17 @@
         "timespan": "2011-2012",
         "instrument": "Bass Guitar / Keyboards",
         "content": "Live bassist (with occasional keyboards) for NYC-based darkwave outfit, signed to Felte Records",
-        "url": "https://felte.net/eraas",
-        "spotify": "https://open.spotify.com/artist/1YMMOwK0EQvBCsLJMF6yam?si=h46oPMGHT6iJnMMjTdrzYg",
         "factList": ["Gigging primarily in NYC venues, including Glasslands."], 
+        "links": [
+            {
+                "platform": "Spotify",
+                "url":"https://open.spotify.com/artist/1YMMOwK0EQvBCsLJMF6yam?si=h46oPMGHT6iJnMMjTdrzYg"
+            },
+            {
+                "platform": "Website",
+                "url":"https://felte.net/eraas"
+            }
+        ],
         "albums": []
     },
     {
@@ -35,9 +51,13 @@
         "timespan": "2007-2011",
         "instrument": "Bass Guitar",
         "content": "Live bassist for Northeast post-rock band, with occasional multi-instrumental recording contributions.",
-        "url": "",
-        "spotify": "https://open.spotify.com/artist/4Dm8YJme0JVU72W4DPd6af?si=ntsF5mjKTHmZuOrww3v-bQ",
         "factList": ["Touring experience throughout Western Europe between 2007-2010, including gigs at prominent festivals such as Pukkelpop, Primavera Sound, and All Tomorrow's Parties", "Shared billing / opened for bands including My Bloody Valentine, Low, Sonic Youth, Deerhunter, The Ex, Yeasayer, of Montreal, The Soft Moon, and more.", "Coverage in national/international music press including Pitchfork, Stereogum, NME, Q, and Under The Radar"],
+        "links": [
+            {
+                "platform": "Spotify",
+                "url":"https://open.spotify.com/artist/4Dm8YJme0JVU72W4DPd6af?si=ntsF5mjKTHmZuOrww3v-bQ"
+            }
+        ],
         "albums": [
             {
                 "title": "Last Show At Redscroll Records",
@@ -68,9 +88,13 @@
         "timespan": "2005-2015",
         "instrument": "Keyboards / Backing Vocals",
         "content": "Garage rock/pop band based in New Haven, CT and NYC, with regular gigs played between both regions.",
-        "url": "",
-        "spotify": "https://open.spotify.com/artist/1lAzczFXXpEWQoDFkgScRL?si=7tUF9WMcSP2rYPc7watzVw",
         "factList": ["Band name changed to Shelter Dogs in 2013, then later to Safe Houses in 2022.", "Full-length album recorded and mixed in 2008 but never released; some songs later released under the Safe Houses moniker (post-departure)", "Occasionally filled in on bass guitar for live performances, if needed"],
+        "links": [
+            {
+                "platform": "Spotify",
+                "url":"https://open.spotify.com/artist/1lAzczFXXpEWQoDFkgScRL?si=7tUF9WMcSP2rYPc7watzVw"
+            }
+        ],
         "albums": [
             {
                 "title": "Something From Something",
@@ -103,6 +127,7 @@
         "content": "Co-singer/songwriter for prog-/space-rock band located between CT/MA/RI; regular gigs played at clubs in the tri-states.",
         "url": "",
         "factList": [],
+        "links": [],
         "albums": [
             {
                 "title": "Epaulettes",

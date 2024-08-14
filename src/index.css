@@ -85,16 +85,19 @@ a:focus {
 
 .btn {
   text-decoration:none;
-  background-color: #646cff;
-  padding:1rem;
-  border-radius:0.4rem;
-  color:white;
+  background-color:var(--blk);
+  color:var(--white);
+  padding:0.8rem 1.5rem;
+  border-radius:0.1rem;
   display:inline-block;
-  margin-top:1rem;
   border:none;
   cursor:pointer;
+  transition:0.2s;
 }
-.btn:hover {color:white;}
+.btn:hover {
+  color:var(--white);
+  background-color:#444444;
+}
 
 .btn.active {
   background-color: #f25353;
@@ -266,6 +269,15 @@ p.album-title {
 .album p .label {
   font-size:1rem;
   font-style:italic;
+}
+
+section.spot-links {
+  border-top:1px solid var(--blk);
+  padding-top:1.3rem;
+  margin-top:1rem;
+  display:flex;
+  gap:1.3rem;
+  flex-wrap:wrap;
 }
 
 @media only screen and (max-width:35rem) {

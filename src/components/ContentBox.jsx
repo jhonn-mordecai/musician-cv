@@ -45,7 +45,23 @@ export default function ContentBox(props) {
                             : <p>Not featured on any recordings; live performance only.</p>
                         }
                     </section>
-                    
+
+                    {props.links.length > 0 ?
+                        <section class="spot-links">
+                            {
+                                props.links.map(link => {
+                                    return <LinkButton 
+                                        key={link.platform}
+                                        title={link.platform}
+                                        buttonText={link.platform}
+                                        url={link.url} 
+                                    />
+                                })
+                            }
+                        </section>
+                        : ''
+                    }
+
                 </div>
             </article>
         </>
